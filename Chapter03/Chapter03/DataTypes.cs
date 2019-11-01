@@ -6,70 +6,84 @@ namespace Chapter03
 {
     class DataTypes
     {
-    
+    /*
         static void Main(String[] args) {
 
             float a = 3.145_9262_3589_7932_386f;//float 형식 변수에 값을 할당할때 숫자 뒤에 f를 붙여줘야한다.
-            Console.WriteLine(a);
+            Console.WriteLine($"float a={a}");
 
             double b = 3.145_9262_3589_7932_386;
-            Console.WriteLine(b);
+            Console.WriteLine($"double b={b}");
 
             decimal c = 3.1415_9265_3589_7932_3846_2643_3832_79m; // m을 붙이면 decimal
             //decimal 29자리 데이터를 표현할 수 있는 소수형식 16(128)비트 범위 +-1.0*10e-28+=7.9*10e28
-            Console.WriteLine(c);
+            Console.WriteLine($"decimal c={c}");
 
 
             char d = '사';
             char e = '과';
 
-            Console.Write(d);
-            Console.Write(e);          
+            Console.Write($"char d ={d}");
+            Console.Write($"char e = {e}");          
             Console.WriteLine(); // 줄바꿈
 
             char f = 'a';
-            Console.Write((int)f); // ascii 97 출력 형변환은 (datatype)
-
+            Console.Write($"ascii of 'a' { (int)f}"); // ascii 97 출력 형변환은 (datatype)
+            Console.WriteLine();
             string g = "안녕하세요"; //string 형식은 데이터 범위가 정해져 있지 않고 들어오는 텍스트의 양에 따라 달라진다.
-            Console.WriteLine(g);
+            Console.WriteLine($"string g ={g}");
 
 
 
 
             bool h = true;
             bool i = false;
-            Console.WriteLine(h);
-            Console.WriteLine(i);
+            Console.WriteLine($"bool h ={h}");
+            Console.WriteLine($"bool i ={i}");
+            Console.WriteLine();
 
 
 
-
-            Console.WriteLine(sizeof(sbyte));   //1
-            Console.WriteLine(sizeof(byte));    //1
-            Console.WriteLine(sizeof(short));   //2
-            Console.WriteLine(sizeof(ushort));  //2
-            Console.WriteLine(sizeof(int));  //4
-            Console.WriteLine(sizeof(uint));   // 4
-            Console.WriteLine(sizeof(long));    //8
-            Console.WriteLine(sizeof(ulong));   //8
-            Console.WriteLine(sizeof(char));    //2
-            Console.WriteLine(sizeof(float));  // 4
-            Console.WriteLine(sizeof(double)); // 8
-            Console.WriteLine(sizeof(decimal)); //16
-            Console.WriteLine(sizeof(bool));    //1
-            
+            Console.WriteLine("SIZE OF DATATYPE");
+            Console.WriteLine($"size of sbyte = {sizeof(sbyte)}");   //1
+            Console.WriteLine($"size of byte={sizeof(byte)}");    //1
+            Console.WriteLine($"size of short={sizeof(short)}");   //2
+            Console.WriteLine($"size of ushort={sizeof(ushort)}");  //2
+            Console.WriteLine($"size of int={sizeof(int)}");  //4
+            Console.WriteLine($"size of uint={sizeof(uint)}");   // 4
+            Console.WriteLine($"size of long={sizeof(long)}");    //8
+            Console.WriteLine($"size of ulong={sizeof(ulong)}");   //8
+            Console.WriteLine($"size of char={sizeof(char)}");    //2
+            Console.WriteLine($"size of float={sizeof(float)}");  // 4
+            Console.WriteLine($"size of double={sizeof(double)}"); // 8
+            Console.WriteLine($"size of decimal={sizeof(decimal)}"); //16
+            Console.WriteLine($"size of bool={sizeof(bool)}");    //1
+            Console.WriteLine();
 
             //  sizeof operator (C# reference)
             //https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/sizeof
 
 
 
+            //object형식 부모의 데이터 형식을 받아온다 object 형식으로  상속을 받는다
+
+            object obj1 = 123;
+            object obj2 = 3.14159265_358979_32846264338327m;
+            object obj3 = true;
+            object obj4 = "안녕하세요";
+
+            Console.WriteLine($"obj1={obj1}");
+            Console.WriteLine($"obj2={obj2}");
+            Console.WriteLine($"obj3={obj3}");
+            Console.WriteLine($"obj4={obj4}");
+            
 
 
 
 
 
-        }
+
+        }*/
         // Types and variables
         //https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types-and-variables
 
